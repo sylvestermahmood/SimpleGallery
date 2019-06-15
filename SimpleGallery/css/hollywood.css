@@ -1,0 +1,135 @@
+body
+{
+    background-image: url("../Images/bg1.jpg")
+
+}
+
+.main
+{
+    background-color: rgb(235, 49, 49);
+    width: 80%;
+    height: 1500px;
+    margin: auto
+}
+
+.logo
+{
+    background-color: blueviolet;
+    width: 20%;
+    height: 16%; 
+    float: left;
+}
+
+.heading
+{
+
+    background-color: red;
+    float: right;
+    width: 80%;
+    height: 16%;
+ 
+
+}
+
+.menu
+{
+    background-color: rgb(0, 83, 238);
+    width: 100%;
+    height: 4%;
+}
+
+.footer
+{
+    background-color: cyan;
+    height: 13%;
+    width: 100%;
+    
+    align-content: left;
+}
+
+nav{
+height: 42px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li a
+{
+    float: left;
+    text-decoration: none;
+    padding: 0px 35px;
+    color: beige;
+    text-align: center;
+    line-height: 50px;
+    height: 52px;
+    font-size: 20px;
+
+}
+
+nav ul li a:hover
+{
+    background-color: white;
+    color:  rgb(0, 83, 238);
+    border-radius: 10px;
+}
+
+.heading
+{
+    font-size: 50px;
+    font-family: 'Courier New';
+    text-align: center
+}
+
+
+.gallery
+{
+    height: 68%;
+    width: 100%;
+    background-image: url("../Images/hbg.jpg");
+}
+.movies
+{
+    height: 75%;
+    width: 100%;
+    border: 40px;
+    float: left;
+    margin-bottom: 10px;
+    opacity: 0.7;   
+    border-radius: 35px;
+}
+
+.img
+{
+    border-radius: 30px;
+}
+
+h1
+{
+    font-size: 40px;
+    font-family: 'Courier New';
+}
+
+.movie_name
+{
+    height: 30%;
+    width: 25%;
+    border: 40px;    
+    margin-right: 43px;
+    margin-left: 43px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 35px;
+    float: left;
+    font-size: 25px;
+    color: aliceblue;
+    background-color: black;
+
+}
+
+.movies:hover
+{
+  transform: scale(1.5); 
+  opacity: 1;
+}
